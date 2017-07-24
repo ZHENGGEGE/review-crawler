@@ -1,0 +1,26 @@
+{
+  "name": "amazon-reviews-crawler",
+  "version": "0.1.1",
+  "description": "Crawls product reviews from Amazon.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/escaladesports/amazon-reviews-crawler.git"
+  },
+  "keywords": [
+    "amazon",
+    "reviews",
+    "crawler"
+  ],
+  "author": "Kennedy Rose <krose@escaladesports.com> (https://escaladesports.com)",
+  "license": "MIT",
+  "dependencies": {
+    "json2csv": "^3.9.1",
+    "node-horseman": "^3.2.0",
+    "phantomjs-prebuilt": "^2.1.13",
+    "random-ua": "0.0.6"
+  }
+}
